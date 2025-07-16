@@ -1,0 +1,71 @@
+/* Заполни стили для .header и .button */
+.header {
+    
+}
+
+.button{
+    
+}
+
+
+/* Большинство стилей элементов на странице уже заданы. Не меняй их! */
+.block {
+    position: absolute;
+    width: 1367px;
+    height: 680px;
+    left: 0%;
+    right: 0%;
+    top: 0px;
+    background-color: rgba(20, 16, 64, 0.22);
+}
+
+.logo{
+    position: absolute;
+    top: 0%;
+    display: inline-block;
+    width: 90px;
+}
+ 
+.info {
+    position: absolute;
+    width: 474.65px;
+    height: 339px;
+    left: 113.92px;
+    right: 56.94%;
+    top: 205.5px;
+}
+
+.main-text {
+    font-family: 'Roboto';
+    font-style: normal;
+    top: 20.5px;
+    height: 168px;
+    width: 455.67px;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 56px;
+    color: #011F3A;
+    margin-bottom: 33px;
+}
+ 
+.text{
+    left: 143.25px;
+    right: 44.6%;
+    top: 205.5px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    color: #011F3A;
+    margin-bottom: 14px;
+}
+
+.image{
+    position: absolute;
+    height: 400px;
+    width: 549px;
+    right: 0px;
+    top: 148px;
+    border-radius: 5px;
+}
