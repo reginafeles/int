@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    font-family: "Montserrat", sans-serif;
+    width: 99vw;
+
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    height: 4em
+}
+.enter{
+    height: 2em
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+.links{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 40%;
+}
+
+.logo-div{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 15%;
+}
+
+.btn{
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 8px;
+}
+
+.steps{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-areas: 
+    "a b c"
+    "d e e";
+    border-radius: 8px;
+
+}
+
+.cell1{grid-area: a}
+.cell2{grid-area: b}
+.cell3{grid-area: c}
+.cell4{grid-area: d}
+.cell5{grid-area: e}
+
+.steps div{
+    border: 1px solid black
+}
